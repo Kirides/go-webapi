@@ -1,0 +1,43 @@
+body {
+    padding-top: 64px;
+    padding-bottom: 20px;
+}
+
+.ft-large:before {
+    font-size: 50px;
+}
+
+.file-box {
+    margin: 5px;
+    padding: 5px;
+    border: solid 1px #000000;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    text-overflow: ellipsis;
+    /* text-wrap: normal; */
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 0.7em;
+    color: #000;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.file-box:hover {
+    background: #eee;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}

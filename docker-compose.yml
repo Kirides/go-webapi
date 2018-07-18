@@ -1,0 +1,10 @@
+# Usage:
+# docker-compose up
+# or: 'docker-compose up -d' if you want to detach it directly
+version: '3'
+services:
+  web.api:
+    build: .
+    image: webapi:latest
+    ports:
+     - "5001:5001"
